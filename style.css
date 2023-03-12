@@ -1,0 +1,29 @@
+* {
+  font-family: 'Courier New', Courier, monospace;
+  box-sizing: border-box;
+}
+
+.title-index {
+  text-align: center;
+}
+
+.ul-index {
+  list-style: none;
+  gap: 10px;
+}
+
+.ul-index {
+  display: flex;
+}
+
+.title-index-flex {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 25px;
+  align-items: center;
+}
+
+.a-index {
+  text-decoration: none;
+  color: black;
+}
