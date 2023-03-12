@@ -5,25 +5,140 @@
 
 .title-index {
   text-align: center;
+  font-size: 50px;
 }
 
-.ul-index {
+.nav-list {
   list-style: none;
-  gap: 10px;
-}
-
-.ul-index {
+  gap: 15px;
   display: flex;
+  font-size: 25px;
 }
 
-.title-index-flex {
+.title-index-container {
   display: flex;
   justify-content: space-between;
-  margin: 10px 25px;
+  margin: 10px 25px 0 25px;
   align-items: center;
 }
 
-.a-index {
+a {
   text-decoration: none;
   color: black;
+}
+
+.recent-recipes-title {
+  margin: 0 25px 10px 25px;
+}
+
+.recent-recipes-list {
+  list-style: none;
+}
+
+.divider-title {
+  color: black;
+  height: 3px;
+  background-color: black;
+  border: none;
+  margin-bottom: 30px;
+}
+
+.fluffypancakes-image {
+  width: 500px;
+  border-radius: 20px;
+}
+
+.recipes-fluffypancakes-h1 {
+  text-align: center;
+}
+
+.fluffypancakes-image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.ingredient-step-list {
+  margin: 10px;
+}
+
+.ingredient-step-divider {
+  color: black;
+  height: 2px;
+  background-color: black;
+  border: none;
+}
+
+.recipes-title {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 15px;
+}
+
+.header {
+  text-align: center;
+  font-size: 20x;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px 20px 0 20px;
+}
+
+.header-nav-list {
+  list-style-type: none;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  font-size: 20px;
+}
+
+.ingredient-container, .step-container {
+  display: flex;
+  justify-content: center;
+}
+
+.cook-time {
+  text-align: center;
+  margin-bottom: -6px;
+}
+
+.recipes-nav {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  justify-content: center;
+  font-size: 20px;
+  margin-bottom: 35px;
+}
+
+.recipes-categories {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.recipes-categories-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.recipes-categories-lists {
+  display: flex;
+  gap: 30px;
+  font-size: 20px;
+  list-style: none;
+}
+
+.recipe-thumbnails {
+  width: 150px;
+  margin-bottom: 7px;
+  border-radius: 10px;
+}
+
+.recipe-name-photo-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
