@@ -80,7 +80,7 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 20px 20px 0 20px;
+  margin: -10px 20px 0 20px;
 }
 
 .header-nav-list {
